@@ -15,11 +15,6 @@
            fetch="https://github.com/pixelstar-devices/"
            revision="14" />
 
-  <!-- Gitlab (The Pixel Project) -->
-    <remote name="tpp-gitlab"
-          fetch="https://gitlab.com/tpp_gms"
-          revision="fourteen-qpr3" />
-
   <!-- General repos -->
   <project path="art" name="art" remote="pixelstar" />
   <project path="bionic" name="bionic" remote="pixelstar" />
