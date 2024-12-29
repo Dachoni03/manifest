@@ -17,7 +17,7 @@ PixelStar
 ```bash
 git lfs install
 
-repo init -u https://github.com/Project-PixelStar/manifest -b 14-qpr3 --git-lfs
+repo init -u https://github.com/Project-PixelStar/manifest -b 15 --git-lfs
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
@@ -25,8 +25,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ```bash
 . build/envsetup.sh
-lunch pixelstar_$device-<|userdebug/user/eng|>
-mka bacon -jXT
+lunch pixelstar_codename-ap4a-buildtype
+mka bacon
 ```
 
 ## Important Links ##
