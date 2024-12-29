@@ -4,7 +4,7 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           review="https://review.lineageos.org/"
-          revision="refs/heads/lineage-22.0" />
+          revision="refs/heads/lineage-22.1" />
 
   <!-- Hardware repos -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
