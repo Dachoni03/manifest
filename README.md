@@ -10,14 +10,14 @@ PixelStar
 - [Flags](https://github.com/Project-PixelStar/Flags)
 
 #### Note ####
-- Make sure git-lfs is installed
+- Make sure git-lfs is installed 
 
-  ### Sync ###
+### Sync ###
 
-  ```bash
-  git lfs install
+```bash
+git lfs install
 
-repo init -u https://github.com/Project-PixelStar/manifest -b 15 --git-lfs
+repo init -u https://github.com/Project-PixelStar/manifest -b 14-qpr3 --git-lfs
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
@@ -39,13 +39,3 @@ mka bacon -jXT
  * [**LineageOS**](https://github.com/LineageOS)
  * [**ParanoidAndroid**](https://github.com/AOSPA)
  * [**crDroid**](https://github.com/crdroidandroid)
- * [**ArrowOS**](https://github.com/ArrowOS)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**YAAP**](https://github.com/yaap)
- * [**PixysOS**](https://github.com/PixysOS)
- * [**Havoc-OS**](https://github.com/Havoc-OS)
- * [**ColtOS**](https://github.com/Colt-Enigma)
- * [**TheParasiteProject**](https://github.com/TheParasiteProject)
- * [**ThePixelProject**](https://github.com/The-Pixel-Project)
-
-* And tons of other ROMs not mentioned above
