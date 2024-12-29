@@ -17,7 +17,7 @@ PixelStar
 ```bash
 git lfs install
 
-repo init -u https://github.com/Project-PixelStar/manifest -b 15 --git-lfs
+repo init -u https://github.com/Dachoni03/manifest -b 15 --git-lfs
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
